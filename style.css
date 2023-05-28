@@ -6,7 +6,10 @@
 
 nav{
     display: flex;
-    
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     background-color: #be3144;
     justify-content: flex-end;
     padding: 20px;   
@@ -73,4 +76,80 @@ nav ul li a{
     color: #fff;
     font-size: 50px;
     font-weight: 700;
+}
+
+ .projects-images{
+
+    padding-top: 20px;
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+   
+
+}
+
+.project-images-titel{
+
+width: 100%;
+display: flex;
+flex: 33.33;
+}
+
+.project-images button{
+  margin-top: 40px;
+    background-color: #fff;
+    color: #181719;
+
+}
+
+
+.projects-images img{
+    
+    width: 80%;
+   
+}
+
+
+
+.projects-images a{
+    color: #fff;
+    padding: 20px;
+    text-decoration: none;
+    font-size: larger;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.projects-images:hover a{
+    color:orange;
+}
+
+.last_section{
+    min-height: 80vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 20%
+
+}
+
+.last_section h1{
+    font-size: 55px;
+
+}
+.social{
+    margin-top: 40px;
+    min-height: 20vh;
+}
+.last_section a{
+
+    margin-top: 30px !important;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 30px;
+   
+
+}
+.last_section .social:hover a { 
+    transform:  translateY(20px);
 }
